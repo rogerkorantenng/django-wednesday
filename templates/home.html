@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <h1>Hello {{ name }}, your {{ month }} {{ year }} events are; </h1>
+    
 </head>
 <body>
-
+<center>
+    <h4>{{ month_number }}</h4>
+    <h5>{{ cal|safe }}</h5>
+</center>
 </body>
+<center>
+    <footer>
+    All Rights reserved {{ current_year }}
+</footer>
+</center>
+
 </html>
